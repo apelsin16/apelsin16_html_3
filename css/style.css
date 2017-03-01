@@ -1,6 +1,10 @@
-.logo {
-  background: #4e4d4d
+body {
+  margin: 20px;
 }
+
+.logo {
+  background: #4e4d4d;
+  }
 
 a {
   background-color: #4e4d4d;
@@ -10,9 +14,40 @@ a {
   padding: 20px;
   text-decoration: none;
   }
+
 a:hover {
   background: #373737;
   border-left: 2px solid #838383;
   border-right: 2px solid #838383;
+}
 
+.sidebar {
+  float: left;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.img {
+  border: 2px solid #c8c8c8;
+  margin-top: 30px;
+  margin-left: 350px;
+
+}
+.content {
+  margin-left: 350px;
+}
+
+
+li {
+  border: 1px solid #c8c8c8;
+  padding: 20px;
+}
+
+li:hover {
+  background: #f9f9f9;
+  padding-left: 30px;
+}
+
+p {
+  margin: 20px;
 }
