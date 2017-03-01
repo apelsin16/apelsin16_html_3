@@ -1,10 +1,18 @@
+.logo {
+  background: #4e4d4d
+}
 
 a {
-  font-size: 11px;
-  background-color: 4e4d4d;
-  margin: 10px;
+  background-color: #4e4d4d;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
   padding: 20px;
-  border: 0;
-
+  text-decoration: none;
+  }
+a:hover {
+  background: #373737;
+  border-left: 2px solid #838383;
+  border-right: 2px solid #838383;
 
 }
