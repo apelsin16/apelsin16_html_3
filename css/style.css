@@ -1,6 +1,6 @@
 body {
   margin: 5%;
-  
+
 }
 
 .header ul {
@@ -40,6 +40,11 @@ body {
   width: 220px;
   }
 
+.sidebar a {
+  display: block;
+    height: 100%;
+    padding: 20px;
+}
   a {
     color: black;
     display: block;
@@ -63,7 +68,7 @@ body {
 .sidebar ul li {
   border: 1px solid #c8c8c8;
   border-bottom: 0;
-  padding: 20px;
+  
 }
 
 .sidebar ul li:last-child {
@@ -72,7 +77,6 @@ body {
 
 .sidebar li:hover {
   background: #f9f9f9;
-  padding: 20px;
   padding-left: 30px;
 }
 
